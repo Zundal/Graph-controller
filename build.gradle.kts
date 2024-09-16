@@ -32,6 +32,7 @@ dependencies {
     testImplementation("io.projectreactor:reactor-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
+    implementation("org.mariadb:r2dbc-mariadb:1.1.4")
     implementation ("org.apache.tinkerpop:gremlin-core:3.5.0")
     implementation ("org.apache.tinkerpop:tinkergraph-gremlin:3.5.0")
     implementation ("org.apache.tinkerpop:gremlin-driver:3.5.0")

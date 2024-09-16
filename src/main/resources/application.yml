@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3310/service
+    username: root
+    password: password
+    pool:
+      enabled: true
+      max-size: 20
+      initial-size: 10
+      max-idle-time: 30s
+      max-create-connection-time: 30s
+      validation-query: SELECT 1

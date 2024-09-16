@@ -1,6 +1,6 @@
 SELECT
     ug_ancestor.group_name AS ancestor_group_name,
-    ug_descendant.group_name AS descendant_group_name,
+    ug_descendant.group_name AS descendant_group_name, -- 기준 위치
     ugc.distance AS group_depth
 FROM
     user_group_closure ugc
